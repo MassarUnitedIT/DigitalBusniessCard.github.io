@@ -18,9 +18,13 @@
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       display: inline-block;
     }
-    img {
-      width: 100px;
+    img.profile {
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
     }
     h1 {
       margin: 10px 0 5px;
@@ -36,16 +40,14 @@
 </head>
 <body>
   <div class="card">
-    <img src="https://via.placeholder.com/100" alt="Your Photo">
+    <img class="profile" src="IMAGE_URL_HERE" alt="Syed Mateen Ul Hassan">
     <h1>Syed Mateen Ul Hassan</h1>
     <p><strong>Position: IT Section Head</strong></p>
-    <p><strong>Company:Massar United Co.</strong></p>
-    <p>Email: It@massar.com.sa</p>
-    <p>Phone: +966509942512</p>
-    <p>Website: www.massar.com.sa</p>
+    <p><strong>Company: Massar United Co.</strong></p>
+    <p>Email: <a href="It@massar.com.sa">It@massar.com.sa</a></p>
+    <p>Phone: <a href="+966509942512">+966509942512</a></p>
+    <p>Website: <a href="www.massar.com.sa" target="_blank">www.massar.com.sa</a></p>
   </div>
 </body>
 </html>
-
-
 
